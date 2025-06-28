@@ -76,6 +76,20 @@
         cover: "Piliche.png",
         language: "Telugu"
       },
+         {
+        title: "Naatu Naatu",
+        artist: " M.M. Keeravani",
+        src: "Naatu Naatu.mp3",
+        cover: "naatu.png",
+        language: "Telugu"
+      },
+         {
+        title: "What Jhumka",
+        artist: "Amit Trivedi",
+        src: "What Jhumka.mp3",
+        cover: "what jumka.png",
+        language: "Hindi"
+      },
      
       {
         title: "Idhedho Bagundhe",
