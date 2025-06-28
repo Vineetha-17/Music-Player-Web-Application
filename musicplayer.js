@@ -62,13 +62,6 @@
         cover: "shankerdada.png",
         language: "Telugu"
       },
-      {
-        title: "Hungry Cheeetah",
-        artist: "Thaman.S",
-        src: "Hungry Cheetah.mp3",
-        cover: "hungry Cheetah.png",
-        language: "Telugu"
-      },
         {
         title: "Piliche",
         artist: " Manisarma",
@@ -76,13 +69,7 @@
         cover: "Piliche.png",
         language: "Telugu"
       },
-      {
-        title: "Naatu Naatu",
-        artist: " M.M. Keeravani",
-        src: "Naatu Naatu.mp3",
-        cover: "Naatu Naatu.png",
-        language: "Telugu"
-      },
+     
       {
         title: "Idhedho Bagundhe",
         artist: " Devi Sri Prasad",
@@ -102,13 +89,6 @@
         artist: "Dhvani Bhanushali",
         src: "Vaaste.mp3",
         cover: "Vaaste.png",
-        language: "Hindi"
-      },
-       {
-        title: "What Jhumka",
-        artist: "Amit Trivedi",
-        src: "What Jhumka.mp3",
-        cover: "what Jumka.png",
         language: "Hindi"
       },
        {
