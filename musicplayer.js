@@ -63,6 +63,13 @@
         language: "Telugu"
       },
         {
+        title: "Hungry Cheeetah",
+        artist: "Thaman.S",
+        src: "Hungry Cheetah.mp3",
+        cover: "OG.png",
+        language: "Telugu"
+      },
+        {
         title: "Piliche",
         artist: " Manisarma",
         src: "Piliche.mp3",
