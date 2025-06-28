@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MelodyHub - Your Music Space</title>
+
+ <link rel="stylesheet" href="musicplayer.css">
+
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">🎵 MelodyHub</div>
+    <div class="lang-buttons">
+      <button onclick="filterSongs('All')">All</button>
+      <button onclick="filterSongs('English')">English</button>
+      <button onclick="filterSongs('Telugu')">Telugu</button>
+      <button onclick="filterSongs('Hindi')">Hindi</button>
+    </div>
+  </div>
+
+  <div id="library" class="library"></div>
+
+  <div class="player">
+    <img id="cover" src="" alt="Cover" />
+    <h2 id="song-title"></h2>
+    <h2 id="artist"></h2>
+    <audio id="audio" controls></audio>
+    <div>
+      <button id="prev">&#x23EE Prev</button>
+      <button id="play-pause">&#x23F8 Play</button>
+      <button id="next">&#x23ED Next</button>
+    </div>
+  </div>
+
+  <script src="musicplayer.js"></script>
+
+
+</body>
+</html>

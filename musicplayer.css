@@ -1,0 +1,61 @@
+ * { 
+      box-sizing: border-box;
+     }
+    body {
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at center, #0d0d1f 40%, #000 100%);
+      margin: 0; padding: 0; color: white;
+    }
+    .navbar {
+      position: fixed; top: 0; width: 100%; background: #1f1f2e;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 30px; z-index: 1000;
+    }
+    .logo {
+      font-family: 'Pacifico', cursive;
+      font-size: 28px;
+    
+    }
+    .lang-buttons button {
+      background:black ; border: 1px solid #ff66a3;
+      padding: 8px 16px; border-radius: 20px; margin-left: 10px;
+      color: white; cursor: pointer; font-weight: bold;
+    }
+    .library {
+      display: flex; flex-wrap: wrap; gap: 30px;
+      justify-content: center; padding: 200px ;
+      max-width: calc(100% - 350px);
+    }
+    .song-card {
+      background: #1f1f2e; padding: 10px;
+      border-radius: 10px; width: 150px; text-align: center;
+      cursor: pointer;
+
+    }
+    .song-card:hover {
+      box-shadow: 0 0 12px rgba(255,0,150,0.5);
+    }
+    .song-card img {
+      width: 100%; height: 100px;
+      border-radius: 8px; object-fit: cover;
+      margin-bottom: 8px;
+    }
+    .player {
+      position: fixed; top: 200px; right: 100px;
+      width: 300px; padding: 20px;
+      border-radius: 25px;
+      background: rgba(20,20,30,0.95);
+      border: 1px solid rgba(255,255,255,0.1);
+      text-align: center;
+    }
+    .player img { width: 100%; border-radius: 20px; margin-bottom: 15px; }
+    .player button {
+      margin: 5px; padding: 10px 15px; border-radius: 25px;
+      background: linear-gradient(145deg, #ff4d79, #b266ff);
+      color: white; font-size: 14px; border: none; cursor: pointer;
+    }
+    .player button:hover {
+      background: linear-gradient(145deg, #ff66a3, #9966ff);
+      transform: scale(1.05);
+    }
+    audio { width: 100%; margin: 15px 0; }
