@@ -66,6 +66,7 @@ DOM manipulation
 Event handling
 Functions
 Audio control methods
+
 📂 Project Structure
 MelodyHub/
 │
